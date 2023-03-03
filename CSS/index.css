@@ -11,12 +11,13 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-around;
+    size: 4em;
 }
 
 main{
     background-color: mediumslateblue;
-    height: 120%;
-    width: 100%;
+    height: 120em;
+    width: 100em;
 }
 
 footer{
