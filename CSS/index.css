@@ -16,6 +16,13 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Que es github*/
+.que-es{
+  border-radius: 3px;
+  width: 1000px;
+  height: auto;
+}
+
 /*Main*/
 main{
     background-color: rgb(67, 70, 75);
