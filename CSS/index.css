@@ -4,14 +4,12 @@
 }
 
 header{
-    background-color: greenyellow;
-    top: 0;
+    background-color: blue;
     width: 100%;
     height: 20%;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    size: 8em;
 }
 
 main{
@@ -19,6 +17,12 @@ main{
     display: flex;
     width: 100%;
     height: 80%;
+}
+
+
+.que-es{
+    background-color: gray;
+    
 }
 
 footer{
