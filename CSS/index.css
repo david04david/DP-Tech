@@ -205,6 +205,6 @@ main{
     height: 30px;
   }
   .redes{
-  display: inline;
+  display: flex;
   justify-content: center;
   }
