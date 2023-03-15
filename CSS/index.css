@@ -79,6 +79,8 @@ main{
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    display: start;
+    justify-content: center;
   }
   
   .flip-card-back {
