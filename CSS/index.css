@@ -111,3 +111,8 @@ main{
   font-size: 2em;
   color:aquamarine;
   }
+  .foto{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
