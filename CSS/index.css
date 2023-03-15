@@ -207,6 +207,7 @@ main{
   .redes{
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 2em;
   color:aquamarine;
   }
