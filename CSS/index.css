@@ -87,7 +87,8 @@ main{
 
   .cara{
     animation-name: cara;
-    animation-duration: 120s;
+    animation-duration: infinite;
+    animation-delay: 5ms;
   }
     @keyframes cara{
       from{
@@ -114,6 +115,7 @@ main{
     height: 30px;
   }
   .redes{
+  display: flex;
   justify-content: center;
   text-align: center;
   font-size: 2em;
