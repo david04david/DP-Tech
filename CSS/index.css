@@ -180,12 +180,13 @@ main{
 
   .cara{
     animation-name: cara;
-    animation-duration: infinite;
+    animation: infinite;
   }
     @keyframes cara{
       from{
         transform: rotate(359deg);
       }
+
       to{
         transform: rotate(0deg);
       }
