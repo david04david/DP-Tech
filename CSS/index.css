@@ -68,7 +68,7 @@ main{
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
-    display: flex;
+    display: start;
     align-items: center;
   }
 
