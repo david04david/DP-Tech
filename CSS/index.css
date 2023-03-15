@@ -5,7 +5,7 @@
 
 /*Header*/
 header{
-    background-color: #0085a4;
+    background-color: #006eff;
     width: 100%;
     height: 5em;
     text-align: center;
@@ -18,12 +18,16 @@ header{
 
 /*Main*/
 main{
-    background-color: rgb(67, 70, 75);
+    background-color: rgb(87, 90, 94);
     display: flex;
     width: 100%;
     height: 80%;
     justify-content: space-between;
     border-radius: 3px;
+}
+
+.contenido{
+  background-color: rgb(24, 23, 23);
 }
 
 /*TARJETAS*/
