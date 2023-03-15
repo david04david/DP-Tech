@@ -205,4 +205,5 @@ main{
   }
   .redes{
   display: inline;
+  justify-content: center;
   }
