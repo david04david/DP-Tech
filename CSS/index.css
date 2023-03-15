@@ -101,3 +101,6 @@ footer{
     color: white;
     text-align: center;
 }
+.tarjetas{
+    display: inline;
+}
