@@ -24,10 +24,6 @@ main{
     height: 80%;
 }
 /*TARJETAS*/
-.tarjetas{
-    flex-wrap: wrap;
-}
-
 .flip-card {
     background-color: transparent;
     width: 300px;
