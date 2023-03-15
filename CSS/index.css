@@ -25,6 +25,10 @@ main{
     
 }
 
+.que-ofrece{
+    background-color: gray;
+}
+
 footer{
     bottom: 0;
     position: absolute;
