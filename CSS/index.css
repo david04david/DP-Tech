@@ -17,15 +17,14 @@ header{
 main{
     background-color: mediumslateblue;
     display: flex;
-    height: 120em;
-    width: 100em;
+
 }
 
 footer{
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: 8%;
+    height: 6%;
     background-color: black;
     color: white;
     text-align: center;
