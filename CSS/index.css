@@ -24,6 +24,11 @@ main{
     height: 80%;
 }
 /*TARJETAS*/
+.tarjetas{
+    display: grid;
+    grid-template-columns: 20%
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
