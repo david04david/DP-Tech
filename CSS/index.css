@@ -30,6 +30,21 @@ main{
     background-color: transparent;
 }
 
+.popular{
+    background-color: transparent;
+}
+
+.repositorio{
+    background-color:transparent;
+}
+
+.pull{
+    background-color: transparent;
+}
+
+.branch{
+    background-color: transparent;
+}
 /*Footer*/
 footer{
     bottom: 0;
