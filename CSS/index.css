@@ -117,4 +117,5 @@ main{
     justify-content: center;
     text-align: center;
     align-items: center;
+    float: right;
   }
