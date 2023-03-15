@@ -114,5 +114,6 @@ main{
   color:aquamarine;
   }
   .foto{
+    display: flex;
     float: right;
   }
