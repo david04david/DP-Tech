@@ -122,5 +122,5 @@ main{
   }
   .foto{
     display: flex;
-    float: right;
+    margin: 0 auto;
   }
