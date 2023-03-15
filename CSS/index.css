@@ -78,6 +78,19 @@ main{
     align-items: center;
   }
 
+  .cara{
+    animation-name: cara;
+    animation-duration: infinite;
+  }
+    @keyframes{
+      from{
+        transform: rotate(359deg);
+      }
+      to{
+        transform: rotate(0deg);
+      }
+    }
+
 /*Footer*/
 footer{
     width: 100%;
