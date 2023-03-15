@@ -84,15 +84,16 @@ main{
   }
     @keyframes cara{
       from{
-        transform: rotate(359deg);
-      }
-      to{
         transform: rotate(0deg);
+      }
+
+      to{
+        transform: rotate(359deg);
       }
     }
 
 /*Footer*/
-footer{
+  footer{
     width: 100%;
     color: rgb(255, 255, 255);
     background-color: black;
@@ -101,4 +102,12 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    height: 30px;
+  }
+  .redes{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+  color:aquamarine;
+  }
