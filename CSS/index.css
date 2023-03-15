@@ -3,6 +3,7 @@
     padding: auto;
 }
 
+/*Header*/
 header{
     background-color: #0085a4;
     width: 100%;
@@ -12,6 +13,7 @@ header{
     justify-content: space-around;
 }
 
+/*Main*/
 main{
     background-color: #43464b;
     display: flex;
@@ -19,7 +21,7 @@ main{
     height: 80%;
 }
 
-
+/*Contenido del main*/
 .que-es{
     background-color: transparent;
 }
@@ -28,6 +30,7 @@ main{
     background-color: transparent;
 }
 
+/*Footer*/
 footer{
     bottom: 0;
     position: absolute;
