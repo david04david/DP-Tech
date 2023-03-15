@@ -107,7 +107,6 @@ main{
     height: 30px;
   }
   .redes{
-  display: flex;
   justify-content: center;
   text-align: center;
   font-size: 2em;
