@@ -202,6 +202,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 30px;
   }
   .redes{
   display: inline;
