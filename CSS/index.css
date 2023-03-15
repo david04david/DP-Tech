@@ -23,32 +23,6 @@ main{
     width: 100%;
     height: 80%;
 }
-
-/*Contenido del main*/
-.que-es{
-    background-color: transparent;
-}
-
-.que-ofrece{
-    background-color: transparent;
-}
-
-.popular{
-    background-color: transparent;
-}
-
-.repositorio{
-    background-color:transparent;
-}
-
-.pull{
-    background-color: transparent;
-}
-
-.branch{
-    background-color: transparent;
-}
-
 /*TARJETAS*/
 .flip-card {
     background-color: transparent;
