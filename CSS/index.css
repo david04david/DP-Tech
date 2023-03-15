@@ -25,7 +25,9 @@ main{
 }
 /*TARJETAS*/
 .tarjetas{
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap:5%;
 }
 
 .flip-card {
