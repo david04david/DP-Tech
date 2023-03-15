@@ -192,7 +192,7 @@ main{
     }
 
 /*Footer*/
-footer{
+  footer{
     width: 100%;
     color: rgb(255, 255, 255);
     background-color: black;
@@ -201,7 +201,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-.redes{
+  }
+  .redes{
   display: inline;
-}
+  }
