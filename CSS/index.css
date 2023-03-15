@@ -80,7 +80,7 @@ main{
 
   .cara{
     animation-name: cara;
-    animation-duration: infinite;
+    animation-duration: 120s;
   }
     @keyframes cara{
       from{
