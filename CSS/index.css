@@ -39,6 +39,7 @@ main {
   background-color: white;
   border-radius: 50px;
   width: 200px;
+  text-decoration: none;
 }
 
 .botonenlace > a{
