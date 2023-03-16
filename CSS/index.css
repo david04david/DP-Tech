@@ -197,7 +197,7 @@ footer {
 header{
   background-color: #006eff;
   width: 100%;
-  height: 2em;
+  height: 5em;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -227,12 +227,11 @@ footer{
   height: 4em;
   color: rgb(255, 255, 255);
   background-color: black;
-  font-weight: 700;
-  justify-content: center;
-  align-items: center;
+  display: flex;
   text-align: center;
   height: 65px;
   border-top: #006eff solid 4px;
+  bottom: 0;
 }
 
 }
