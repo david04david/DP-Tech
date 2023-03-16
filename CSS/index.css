@@ -35,6 +35,27 @@ main {
   text-align: center;
 }
 
+.botonenlace{
+  background-color: white;
+  border-radius: 50px;
+}
+
+.botonenlace > a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.botonenlace{
+  transition: 0.4s;
+  scale: (1);
+}
+
+.botonenlace:hover{
+  transition: 0.4s;
+  transform: scale(1.5);
+  box-shadow: 5px 5px 15px 5px rgb(121, 7, 250); 
+}
+
 /*TARJETAS*/
 .tarjetas {
   margin-top: 2%;
