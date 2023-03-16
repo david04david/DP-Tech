@@ -229,6 +229,11 @@ main{
   grid-template-columns: 100%;
 }
 
+.redes{
+  display: grid;
+  grid-template-columns: 100%;
+}
+
 footer{
   width: 100%;
   height: 4em;
