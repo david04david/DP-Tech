@@ -24,7 +24,7 @@ main {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   display: flex;
   width: 100%;
-  height: 80%;
+  height: 3.5em;
   border-bottom: #006eff 4px solid;
   justify-content: space-between;
 }
