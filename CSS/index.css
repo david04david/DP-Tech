@@ -65,7 +65,7 @@ main {
 /*TARJETAS*/
 .tarjetas {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-columns: 15% 15% 15% 15%;
   animation-name: tarjetas;
   animation-duration: 1s;
 }
@@ -224,7 +224,7 @@ main{
 
 .tarjetas{
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 90%;
 }
 
 .redes{
