@@ -232,8 +232,6 @@ main{
 .redes{
   display: grid;
   grid-template-columns: 100%;
-  bottom: 0;
-  position: relative;
 }
 
 footer{
