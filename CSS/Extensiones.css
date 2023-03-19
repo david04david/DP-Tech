@@ -90,8 +90,8 @@ main {
 }
 
 .flip-card-inner {
-  font-size: small;
-  position: initial;
+  
+  position: relative;
   width: 100%;
   height: 100%;
   text-align: initial;
@@ -99,9 +99,7 @@ main {
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.center{
-  text-align: initial;
-}
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -133,11 +131,6 @@ main {
   padding-right: 5%;
 }
 
-.cara {
-  animation-name: cara;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
 
   @keyframes cara {
     from {
