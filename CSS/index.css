@@ -231,7 +231,7 @@ main{
 
 .redes{
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 50% 50%;
   bottom: 0;
   position: absolute;
 }
