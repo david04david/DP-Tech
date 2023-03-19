@@ -232,8 +232,7 @@ main{
 .redes{
   display: grid;
   grid-template-columns: 50% 50%;
-  bottom: 0;
-  position: absolute;
+  bottom: -190%;
 }
 
 footer{
@@ -243,8 +242,6 @@ footer{
   background-color: black;
   text-align: center;
   border-top: #006eff solid 4px;
-  bottom: 0;
-  position: absolute;
+  bottom: -200%;
 }
-
 }
