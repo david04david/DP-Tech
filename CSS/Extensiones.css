@@ -83,6 +83,7 @@ main {
   }
 
 .flip-card {
+  flex-wrap: wrap;
   background-color: transparent;
   width: 300px;
   height: 300px;
