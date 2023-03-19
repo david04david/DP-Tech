@@ -20,12 +20,11 @@ header {
 /*Main*/
 main {
   background-color: rgb(0, 0, 0);
-  color: white;
   display: flex;
   width: 100%;
-  height: 25em;
+  height: 80%;
   border-bottom: #006eff 4px solid;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .contenido {
@@ -39,9 +38,10 @@ main {
 .botonenlace{
   background-color: white;
   border-radius: 50px;
-  width: 300px;
-  color: black;
+  width: 200px;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -78,7 +78,7 @@ main {
     }
 
     to {
-      margin-left: 5%;
+      margin-left: 0%;
     }
   }
 
@@ -90,10 +90,11 @@ main {
 }
 
 .flip-card-inner {
+  
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: initial;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -137,11 +138,6 @@ main {
   padding-right: 5%;
 }
 
-.cara {
-  animation-name: cara;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
 
   @keyframes cara {
     from {
@@ -161,7 +157,7 @@ main {
   justify-content: center;
   text-align: center;
   font-size: 2em;
-  color: 006eff;
+  color:#006eff;
 }
 
 .redes > h1{
@@ -226,7 +222,7 @@ main{
   background-color: rgb(0, 0, 0);
   display: flex;
   width: 100%;
-  height: 85%;
+  height: 80%;
   border-bottom: #006eff 4px solid;
   justify-content: space-between;
 }
@@ -238,9 +234,9 @@ main{
 
 .redes{
   display: grid;
-  grid-template-columns: 40% 40%;
-  grid-gap: 5% 5%;
-  margin-bottom: -20%;
+  grid-template-columns: 100%;
+  bottom: 0;
+  position: relative;
 }
 
 footer{
@@ -248,9 +244,12 @@ footer{
   height: 4em;
   color: rgb(255, 255, 255);
   background-color: black;
+  display: flex;
   text-align: center;
-  justify-content: center;
+  height: 65px;
   border-top: #006eff solid 4px;
-  margin-bottom: -20%;
+  bottom: 0;
+  position: relative;
 }
+
 }
