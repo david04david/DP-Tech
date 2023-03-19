@@ -233,7 +233,7 @@ main{
   display: grid;
   grid-template-columns: 40% 40%;
   grid-gap: 5% 5%;
-  bottom: -230%;
+  margin-bottom: -230%;
 }
 
 footer{
@@ -243,6 +243,6 @@ footer{
   background-color: black;
   text-align: center;
   border-top: #006eff solid 4px;
-  bottom: -250%;
+  margin-bottom: -250%;
 }
 }
