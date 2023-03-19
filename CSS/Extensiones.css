@@ -90,6 +90,7 @@ main {
 }
 
 .flip-card-inner {
+  font-size: small;
   position: relative;
   width: 100%;
   height: 100%;
