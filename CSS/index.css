@@ -226,7 +226,7 @@ main{
 
 .tarjetas{
   display: grid;
-  grid-template-columns: 95%;
+  grid-template-columns: 100%;
 }
 
 .redes{
