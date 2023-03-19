@@ -63,9 +63,9 @@ main {
 
 /*TARJETAS*/
 .tarjetas {
+  flex-wrap: wrap;
   margin-top: 2%;
   margin-left: 5%;
-  display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   grid-gap: 5%;
   animation-name: tarjetas;
