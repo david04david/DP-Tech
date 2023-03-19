@@ -242,8 +242,8 @@ footer{
   color: rgb(255, 255, 255);
   background-color: black;
   text-align: center;
+  justify-content: center;
   border-top: #006eff solid 4px;
   margin-bottom: -20%;
-  /*chupame la polla hermano*/
 }
 }
