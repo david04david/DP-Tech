@@ -103,6 +103,9 @@ main {
 .li{
   font-size: small;
 }
+.tex{
+  text-align: center;
+}
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
