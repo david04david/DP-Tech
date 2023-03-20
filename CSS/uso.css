@@ -1,21 +1,22 @@
 * {
-    margin: auto;
-    padding: auto;
-  }
-header {
-    background-color: #006eff;
-    width: 100%;
-    height: 5em;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    font-size: 2em;
-    color: white;
-    border-bottom: grey 4px solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  margin: auto;
+  padding: auto;
 }
 
-.botonenlace{
+header {
+  background-color: #006eff;
+  width: 100%;
+  height: 5em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+  color: white;
+  border-bottom: grey 4px solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.botonenlace {
   background-color: white;
   border-radius: 50px;
   width: 300px;
@@ -24,56 +25,60 @@ header {
   text-align: center;
 }
 
-.botonenlace > a{
+.botonenlace>a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-.botonenlace{
+.botonenlace {
   transition: 0.4s;
   scale: (1);
 }
 
-.botonenlace:hover{
+.botonenlace:hover {
   transition: 0.4s;
   transform: scale(1.5);
-  box-shadow: 5px 5px 15px 5px rgb(121, 7, 250); 
+  box-shadow: 5px 5px 15px 5px rgb(121, 7, 250);
 }
 
 main {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    width: 100%;
-    height: 80%;
-    border-bottom: #006eff 4px solid;
-    justify-content: space-between;
-  }
-  .contenido {
-    color: white;
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-  }
-  h2{
-    text-align: center;
-  }
-  title{
-    text-align: center;
-  }
-  footer {
-    width: 100%;
-    height: 4em;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    font-weight: 700;
-    bottom: 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 65px;
-    border-top: #006eff solid 4px;
-  }
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  width: 100%;
+  height: 80%;
+  border-bottom: #006eff 4px solid;
+  justify-content: space-between;
+}
+
+.contenido {
+  color: white;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+title {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 4em;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-weight: 700;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 65px;
+  border-top: #006eff solid 4px;
+}
 
 /*TARJETAS*/
 .tarjetas {
@@ -85,15 +90,16 @@ main {
   animation-name: tarjetas;
   animation-duration: 1s;
 }
-  @keyframes tarjetas {
-    from {
-      margin-left: 100%;
-    }
 
-    to {
-      margin-left: 5%;
-    }
+@keyframes tarjetas {
+  from {
+    margin-left: 100%;
   }
+
+  to {
+    margin-left: 5%;
+  }
+}
 
 .flip-card {
   background-color: transparent;
@@ -146,6 +152,11 @@ main {
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+}
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes cara {
